@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+  margin:0 ;
+  padding:0 ;
+  box-sizing:border-box ;
+  width:100% ;
+  font-family: 'Nunito', sans-serif;
+}
+.bold{
+  font-size:25px ;
+  font-weight: bold;
+}
+.li{
+  padding:5px;
+}
+.nav-link{
+  color:  #FF1493;
+  font-weight:bold ;
+  border:2px solid transparent;
+}
+.nav-link:hover{
+  color:  #FF1493;
+  border-bottom: 2px solid blueviolet;
+  transition: .1s;
+}
+section{
+  min-height: 100vh;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+.text-content{
+  text-align: justify;
+  font-size:16px ;
+}
+.card-text{
+  text-align: justify;
+}
+.btn-text{
+  border-color:#FF1493 ;
+  border:1px solid #FF1493;
+  color:black;
+}
+.btn-text:hover{
+  background-color:#FF1493 ;
+  color:white;
+}
+.text-1{
+  color:#FF1493;
+  font-weight:bolder ;
+}
+.text-2{
+  font-size:50px;
+}
+.image{
+  width: 25rem;
+  height:25rem ;
+  border-radius:15px ;
+}
+#navbar{
+  position:sticky ;
+  top:0;
+  z-index:10;
+  background-color:white ;
+}
+.card img{
+  height:250px;
+  transition: 1s;
+}
+.inner{
+  overflow: hidden;
+}
+.card img:hover{
+  transform: scale(1.5);
+  transition: 1s;
+}
+.form-control{
+  border:1px solid #FF1493 ;
+}
+form{
+  padding:40px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+  border-radius:25px ;
+}
